@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nombre": "Alfajor",
+        "precio": 122,
+        "stock": 408,
+        "categoriaProducto": "Almacen"
+    },
+    {
+        "id": 2,
+        "nombre": "Cafe",
+        "precio": 780,
+        "stock": 48,
+        "categoriaProducto": "Almacen"
+    },
+    {
+        "id": 3,
+        "nombre": "Banana",
+        "precio": 207,
+        "stock": 687,
+        "categoriaProducto": "Verdulería"
+    },
+    {
+        "id": 4,
+        "nombre": "Gaseosa",
+        "precio": 342,
+        "stock": 214,
+        "categoriaProducto": "Almacen"
+    },
+    {
+        "id": 5,
+        "nombre": "Pan",
+        "precio": 147,
+        "stock": 306,
+        "categoriaProducto": "Panadería"
+    },
+    {
+        "id": 6,
+        "nombre": "Chocolate",
+        "precio": 1220,
+        "stock": 179,
+        "categoriaProducto": "Almacen"
+    },
+    {
+        "id": 7,
+        "nombre": "Frutilla",
+        "precio": 723,
+        "stock": 551,
+        "categoriaProducto": "Verdulería"
+    },
+    {
+        "id": 8,
+        "nombre": "Manteca",
+        "precio": 314,
+        "stock": 101,
+        "categoriaProducto": "Almacen"
+    },
+    {
+        "id": 9,
+        "nombre": "Perfume",
+        "precio": 14588,
+        "stock": 21,
+        "categoriaProducto": "Perfumería"
+    },
+    {
+        "id": 10,
+        "nombre": "Factura",
+        "precio": 122,
+        "stock": 408,
+        "categoriaProducto": "Panadería"
+    }
+]

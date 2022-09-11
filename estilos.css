@@ -1,0 +1,474 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  height: 70px;
+  background-color: burlywood;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+/* navbar */
+.navBar {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+  margin-top: 30px;
+}
+
+.navBar ul li {
+  margin: 0px 15px;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+}
+
+.navBar ul li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: beige;
+  width: 120px;
+  height: 45px;
+  border-radius: 1rem;
+  border: 0px;
+  border-bottom: 3px solid rgb(109, 78, 0);
+}
+.navBar ul li button:hover {
+  transition-duration: 1s;
+  background-color: rgb(253, 234, 173);
+}
+
+.navBar ul li button:active {
+  background-color: rgb(207, 148, 0);
+  border-bottom: 2px solid rgb(109, 78, 0);
+}
+#cont_carrito {
+  margin-left: 10px;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  border-bottom: 3px solid peru;
+}
+
+#logo-empresa {
+  width: 10%;
+}
+
+#logo-empresa img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Fin navbar */
+
+.divisor {
+  margin: 30px 0px 30px 0px;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background: linear-gradient(white, khaki);
+}
+
+#carta-grupo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.carta {
+  background-color: white;
+  display: flex;
+  flex-flow: column wrap;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 20px;
+  width: 300px;
+  height: 400px;
+  margin-left: 5px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.carta img {
+  width: 100%;
+  height: 40%;
+}
+
+.carta h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carta p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
+
+.carta div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.carta div button {
+  width: 130px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: khaki;
+  border-radius: 10px;
+  border: 1px groove;
+}
+
+.carta button:hover {
+  background-color: rgb(255, 230, 0);
+}
+
+.carta button:active {
+  background-color: khaki;
+}
+
+#titulo_principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+#titulo_principal div {
+  width: 50%;
+  justify-content: center;
+}
+
+#titulo_principal div img {
+  width: 250px;
+}
+
+#titulo_principal div h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: peru;
+}
+
+#titulo_principal div p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: peru;
+}
+#info_titulo {
+  display: flex;
+  flex-direction: column;
+}
+#info_titulo h1 span {
+  color: rgb(255, 200, 82);
+  font-size: 60px;
+}
+.font_montserrat-2 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.font_montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.titulo_sector {
+  width: 250px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  padding: 30px 150px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgb(222, 184, 135);
+  font-family: "Montserrat", sans-serif;
+}
+/* Seccion productos */
+#productos {
+  display: flex;
+  justify-content: center;
+}
+#productos div {
+  display: flex;
+  justify-content: center;
+}
+#productos div h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#filtro_productos {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+#filtro_productos h5 {
+  font-size: 16px;
+}
+
+#header_productos {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#select_filtros {
+  width: 200px;
+  height: 40px;
+}
+
+/* Carrito */
+.carrito-container {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 10px;
+  background: linear-gradient(beige, rgb(250, 210, 169));
+  border-bottom: 2px solid peru;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.carrito-img {
+  max-height: 100px;
+  align-items: center;
+}
+.carrito-img img {
+  height: 100px;
+  width: 150px;
+  align-items: center;
+}
+.carrito-info {
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carrito-info div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  font-family: "Montserrat";
+  width: 150px;
+}
+.carrito-info div span {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: rgb(50, 50, 50);
+}
+#totalPrecioCarro {
+  position: relative;
+  left: 120px;
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Montserrat";
+}
+#formulariosPagarCarro {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+#formularioCarro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 4px solid black;
+  width: 400px;
+  border-radius: 10px;
+}
+#formularioCarro h5{
+  margin: 0px;
+  margin-left: 30px;
+border-bottom: 2px solid black;
+}
+#formularioCarro label {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+#formularioCarro input {
+  margin-left: 30px;
+  width: 65%;
+  height: 28px;
+}
+
+#formularioProductosCarro{
+  background-color: aqua;
+  width: 600px;
+}
+
+
+
+/* fin Seccion productos */
+/* Seccion nosotros */
+#nosotros {
+  width: 100%;
+}
+#nosotros div {
+  display: flex;
+  justify-content: center;
+}
+#nosotros div h2 {
+  display: flex;
+  justify-content: center;
+}
+.contenido_nosotros {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Fin seccion nosotros */
+.rectangulo_nosotros {
+  width: 800px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  font-family: "Montserrat";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+/* Seccion contacto */
+#contacto {
+  width: 100%;
+}
+#contacto div {
+  display: flex;
+  justify-content: center;
+}
+#contacto div h2 {
+  display: flex;
+  justify-content: center;
+}
+.contenido_contacto {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#medios {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#medios div {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 900px;
+  background-color: peru;
+  gap: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#medios ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+#medios ul li {
+  list-style: none;
+}
+#medios h5 {
+  font-size: 24px;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#formulario form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 280px;
+  border-radius: 10px;
+  background-color: peru;
+}
+#formulario form label {
+  font-size: 20px;
+  color: white;
+}
+#formulario form input {
+  height: 40px;
+  width: 400px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+#formulario form textarea {
+  width: 400px;
+  border-radius: 5px;
+}
+#formulario form button {
+  max-width: 100px;
+  height: 30px;
+  font-weight: bold;
+}
+
+/* fin seccion contacto */
+
+footer {
+  background-color: burlywood;
+  padding: 35px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font-family: Tahoma;
+  font-size: 14px;
+}
