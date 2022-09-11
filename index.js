@@ -244,6 +244,11 @@ function eventoCarrito() {
         }
         if (list_productos != null) {
 
+            //Variables contienen productos carro pagar final
+            let preciosProdu = "";
+            let nombresProdu = "";
+            let cantProdu = "";
+
 
             /* Aca tengo que preparar un var que contenga el string HTML
              encajonando item por item que esté en el carro de compras */
@@ -260,6 +265,11 @@ function eventoCarrito() {
                         <div><span>Precio: $</span>${precio}</div>              
                     </div>
                 </div>`;
+
+                nombresProdu += nombre + "<hr><br>";
+                preciosProdu += "$ " + String(precio) + "<hr><br>";
+                cantProdu += String(1) + "<hr><br>";
+
             }
             let valorTotal = calcularTotalPrecioCarrito();
             objetoCarroMostrar += "<h5 id='totalPrecioCarro'>Total:  $" + valorTotal + "</h5>";
@@ -287,19 +297,27 @@ function eventoCarrito() {
                                 <input type="email" id="correo-form-carro" name="correo-form-carro-name">
                                 <label for="direccion-form-carro">Dirección *</label>
                                 <input type="text" id="direccion-form-carro" name="direccion-form-carro-name">
+                                <label for="tarjeta-form-carro">Número de tarjeta *</label>
+                                <input type="text" id="tarjeta-form-carro" name="tarjeta-form-carro-name">
+                                <label for="seguridad-form-carro">Código de seguridad *</label>
+                                <input type="text" id="seguridad-form-carro" name="seguridad-form-carro-name">
+                                <label for="vencimiento-form-carro">Fecha de vencimiento *</label>
+                                <input type="text" id="vencimiento-form-carro" name="vencimiento-form-carro-name">
                             </div>
                             <div>
+                            <h5>Datalle de compra:</h5>
                             <div id="formularioProductosCarro">
-                                <h5>Datalle de compra:</h5>
-                                <label for="nombre-form-carro">Nombre *</label>
-                                <input type="text" id="nombre-form-carro" name="nombre-form-carro-name">
-                                <label for="telefono-form">Teléfono *</label>
-                                <input type="tel" id="telefono-form-carro" name="telefono-form-carro-name">
-                                <label for="correo-form">Correo *</label>
-                                <input type="email" id="correo-form-carro" name="correo-form-carro-name">
-                                <label for="direccion-form-carro">Dirección *</label>
-                                <input type="text" id="direccion-form-carro" name="direccion-form-carro-name">
+                                <div><h5>Nombre del artículo:</h5>
+                                ${nombresProdu}
+                                </div>
+                                <div><h5>Cantidad del artículo:</h5>
+                                ${cantProdu}
+                                </div>
+                                <div><h5>Precio del artículo:</h5>
+                                ${preciosProdu}
+                                </div>
                             </div>
+                            <h5 id='montoCarro'>Monto total a abonar: $ ${valorTotal}</h5>
                             </div>
 
                         </div>`
