@@ -349,8 +349,8 @@ main {
   border-radius: 5px;
   min-height: 400px;
 }
-#formularioProductosCarro div {
-}
+/* #formularioProductosCarro div {
+} */
 #formularioProductosCarro div h5 {
   border-bottom: 2px solid black;
 }
