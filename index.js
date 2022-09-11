@@ -23,7 +23,7 @@ cargarProductosExterior(); // Trae los productos de la API productos.json.
 //Llamo los demás métodos dentro de éste para que se ejecuten correctamente y en orden.
 async function cargarProductosExterior() {
 
-    await fetch('/productos.json')
+    await fetch('https://nicolasbauchi.github.io/productos.json')
         .then((response) => response.json())
         .then((data) => {
 
